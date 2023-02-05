@@ -1,0 +1,296 @@
+.c1, body{
+    background-color: #ece6da;
+    }
+.c2{
+    background-color: #ffefca;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    border-radius: 12px;
+    box-shadow: gray 2px 2px 5px;
+}
+.card{
+    margin: 0 auto;
+    height: 448px;
+    border: solid 1px rebeccapurple;
+}
+img{
+    height: 215px;
+}
+.card {
+    /* height: auto; */
+    padding: 0.8em;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.12),
+        0 0.0625rem 0.125rem rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Fraunces", serif;
+}
+.card-info p {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+    height: 75px;
+	text-align: left;
+	justify-content: center;
+	color: hsl(228, 12%, 48%);
+}
+.card-img {
+    background-color: #ffcaa6;
+    height: 215px;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+}
+.card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0rem 0.8125rem 2.9375rem -0.3125rem,
+        rgba(180, 71, 71, 0.3) 0px 0.5rem 1rem -0.5rem;
+}
+.card-footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.625rem;
+    border-top: 0.0625rem solid #ddd;
+    /* border: solid red; */
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    bottom: 0;
+}
+#botonVainilla,
+	#botonLimon,
+	#botonNaranja,
+	#botonIngles,
+	#botonMarmolado,
+	#botonChocolate {
+		background-color: hsl(158, 36%, 37%);
+		border-radius: 50%;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		font-size: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        width: 30px;
+		height: 30px;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        /* position: absolute; */
+        padding-top: 8px;
+    }
+    #botonVainillaDel,
+	#botonLimonDel,
+	#botonNaranjaDel,
+	#botonInglesDel,
+	#botonMarmoladoDel,
+	#botonChocolateDel {
+		background-color: hsl(0, 63%, 44%);
+		border-radius: 50%;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		font-size: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        width: 30px;
+		height: 30px;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        /* position: absolute; */
+        padding-top: 8px;
+    }
+    #mostradorVainilla,
+	#mostradorLimon,
+	#mostradorNaranja,
+	#mostradorIngles,
+	#mostradorMarmolado,
+	#mostradorChocolate {
+        font-size: 15px;
+        width: 30px;
+		height: 30px;
+		border: solid 1px;
+		border-radius: 50%;
+ 	    padding: 2px;
+		/* margin-right: 25px;
+		margin-top: 0px; */
+		color: #2f4858;
+	}
+
+header {
+    /* border: solid green 1px; */
+    background-color: #ece6da8e;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 99%;
+    position: fixed;
+    box-shadow: #fe8d59 1px 1px 20px 0.5px;
+    border-radius: 7px;
+    z-index: 1;
+}
+#logoHeader {
+    /* 		width: 7.533%;
+    height: 83.34%;
+    width: 6.78%;
+    height: 75%; */
+    width: 70px;
+    height: 70px;
+    display: block;
+    position: absolute;
+}
+nav ul {
+    /* border: solid 1px red; */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 65px;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li {
+    padding: 0;
+    margin: 7px;
+}
+nav li a {
+    color: #2f4858;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav li a:hover {
+    font-weight: 600;
+    color: #fe8d59;
+}
+#abajo{
+    box-shadow: gray 2px 2px 5px;
+	margin-top: 10px;
+	border-radius: 10px;
+    justify-content: center;
+}
+#name {
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    padding-top: 2px;
+}
+
+.form__group {
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 180px;
+   /*  border: solid 1px black; */
+    margin: 0 auto;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #7fd1ae;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #fe8d59;
+    pointer-events: none;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+#button {
+    background-color: #fc8c79;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 10px;
+}
+#confirmacion {
+    background-color: #7fd1ae;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 15px;
+    
+}
+#borrarPedido {
+    background-color: #c05748;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+#modificarPedido{
+    background-color: #9AD3E6;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 15px;
+
+    color: #2f4858;
+}
+#confirmacion, #borrarPedido, #modificarPedido a{
+    color: #ECE6DA;
+    text-decoration: none;
+}
+footer {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: solid #fe8d59 1px;
+    letter-spacing: 6px;
+}
